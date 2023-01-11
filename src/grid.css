@@ -1,0 +1,243 @@
+/* App */
+.app {
+  display: grid;
+  grid-template-columns: repeat(12, 2fr);
+  grid-template-rows: auto 1fr auto auto auto;
+}
+
+.status {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.user_info {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+/*Navbar*/
+.navbar {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.images {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  text-align: center;
+}
+
+/* About us */
+.aboutinfo {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 13;
+
+  display: grid;
+  grid-template-columns: repeat(12, 2fr);
+}
+
+.about {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.aboutimg {
+  grid-column-start: 7;
+  grid-column-end: 13;
+}
+
+/* Our Services*/
+.our_services {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+/* Our Services*/
+.teaminfo {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+/* Login or Sign up*/
+.login-form {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 10;
+
+  display: grid;
+  grid-template-columns: repeat(12, 2fr);
+  grid-template-rows: auto auto;
+}
+
+.login-inputs {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.login-buttons {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/* Sign up */
+.signup-form {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 10;
+
+  display: grid;
+  grid-template-columns: repeat(12, 2fr);
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+/*Logout*/
+.logout {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.title {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.first-name {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.last-name {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.email {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.password {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.signup-button {
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+/* Search bar */
+
+.searchbar {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 5;
+  grid-column-end: 10;
+}
+
+.city_info_attribute {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 9;
+}
+
+.city_details {
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+@media only screen and (max-width: 425px) {
+  .aboutinfo {
+    display: grid;
+    grid-template-columns: repeat(12, 2fr);
+    grid-template-rows: auto auto;
+  }
+
+  .about {
+    grid-row-start: 1;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 13;
+  }
+
+  .aboutimg {
+    grid-row-start: 2;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 13;
+  }
+
+  .login-form {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display: grid;
+    grid-template-columns: repeat(12, 2fr);
+    grid-template-rows: auto auto;
+  }
+
+  .login-inputs {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .login-buttons {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .signup-form {
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+
+  .searchbar {
+    grid-column-start: 1;
+    grid-column-end: 13;
+  }
+
+  .city_info_attribute {
+    grid-column-start: 1;
+    grid-column-end: 13;
+  }
+}

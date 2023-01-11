@@ -1,0 +1,58 @@
+header img {
+  height: 3.5rem;
+  width: 7rem;
+}
+
+.copyright {
+  background-color: #8ea9db;
+}
+
+.social_links {
+  background-color: #8ea9db;
+}
+
+.fa {
+  padding: 0.5rem;
+  font-size: 0.3rem;
+  width: 0.6rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.8rem 0.5rem;
+  border-radius: 10rem;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #f7786b;
+  color: white;
+}
+
+.fa-twitter {
+  background: #f7cac9;
+  color: white;
+}
+
+.fa-google {
+  background: #034f84;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f7cac9;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #f7786b;
+  color: white;
+}
+
+footer {
+  background-color: #8ea9db;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0.7rem;
+}
